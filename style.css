@@ -1,0 +1,16 @@
+ul, li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.tree-view ul {
+    display: none;
+}
+
+.tree-view ul.visible {
+    display: block;
+}
+
+.folder {
+    cursor: pointer;
+}
